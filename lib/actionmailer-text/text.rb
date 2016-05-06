@@ -11,7 +11,7 @@ module ActionMailer
       html_part = responses.detect { |response| response[:content_type] == 'text/html' }
       text_part = responses.detect { |response| response[:content_type] == 'text/plain' }
       if html_part && !text_part
-        responses.insert 0, content_type: 'text/plain', body: convert_to_text(html_part[:body], nil)
+        responses.insert 0, content_type: 'text/plain', body: convert_to_text(html_part[:body])
         headers[:parts_order] = ['text/plain'] + headers[:parts_order] unless headers[:parts_order].include?('text/plain')
       end
       responses
