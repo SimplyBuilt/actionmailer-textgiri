@@ -1,5 +1,5 @@
 module ActionMailer
-  module Text
+  module Textgiri
     def self.included(klass)
       klass.class_eval do
         include ActionMailer::Text::HtmlToPlainText

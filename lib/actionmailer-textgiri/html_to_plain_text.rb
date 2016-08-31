@@ -1,7 +1,7 @@
 require 'nokogiri'
 
 module ActionMailer
-  module Text
+  module Textgiri
     module HtmlToPlainText
       def convert_to_text(html_body)
         body_parts = []

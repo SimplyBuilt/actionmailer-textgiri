@@ -1,9 +1,9 @@
 $LOAD_PATH.push File.expand_path('../lib', __FILE__)
-require 'actionmailer-text/version'
+require 'actionmailer-textgiri/version'
 
 Gem::Specification.new do |s|
   s.name = 'actionmailer-textgiri'
-  s.version = ActionMailer::Text::VERSION
+  s.version = ActionMailer::Textgiri::VERSION
   s.authors = ['Daniel Doubrovkine', 'Cameron Craig', 'Simplybuilt']
   s.email = 'sentrathis96@gmail.com'
   s.platform = Gem::Platform::RUBY
