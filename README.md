@@ -1,15 +1,14 @@
 ActionMailer::Text
 ==================
 
-[![Build Status](https://travis-ci.org/dblock/actionmailer-text.png)](https://travis-ci.org/dblock/actionmailer-text)
-[![Gem Version](https://badge.fury.io/rb/actionmailer-text.svg)](http://badge.fury.io/rb/actionmailer-text)
-
 Automatically insert a text/plain part into your HTML multipart e-mails.
+
+### This version of actionmailer-text uses Nokogiri to parse html, to use the original version go [here](https://github.com/dblock/actionmailer-text)
 
 ## Installation
 
 ```ruby
-gem 'actionmailer-text'
+gem 'actionmailer-textgiri'
 ```
 
 ## Usage
