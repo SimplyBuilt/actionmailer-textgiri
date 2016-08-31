@@ -15,7 +15,7 @@ gem 'actionmailer-textgiri'
 
 ```ruby
 class WelcomeMailer < ActionMailer::Base
-  include ActionMailer::Text
+  include ActionMailer::Textgiri
 
   default from: 'welcome@example.org'
 

@@ -2,7 +2,7 @@ module ActionMailer
   module Textgiri
     def self.included(klass)
       klass.class_eval do
-        include ActionMailer::Text::HtmlToPlainText
+        include ActionMailer::Textgiri::HtmlToPlainText
       end
     end
 
